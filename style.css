@@ -1,0 +1,44 @@
+body
+{
+background-color:#789ee4;
+text-align: center;
+}
+
+h1
+{
+  
+  color:rgb(15, 2, 87);
+  background-color: rgb(238, 225, 175);
+  font-size: 50px;
+}
+
+#borrar, #dibujos{
+  font-size: 30px;
+  background-color: rgb(88, 6, 63);
+  color: white;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+p{
+  font-size: 40px;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: colores;
+    animation-duration: 2s;
+    margin-top: 180px; 
+    animation-iteration-count: infinite;
+    
+}
+@keyframes colores {
+
+  from {box-shadow: 1px 1px 38px rgb(10, 236, 29);}
+  to {box-shadow: 1px 1px 38px rgb(219, 19, 219);}
+
+}
+
+
